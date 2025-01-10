@@ -1,6 +1,6 @@
-# AWS Learning Resources
+# AWS PERSONAL Learning Resources
 
-Welcome to the AWS Learning repository! This repository contains a collection of resources, tutorials, and projects to help you learn and explore Amazon Web Services (AWS). Whether you're a beginner or looking to deepen your knowledge, you'll find something useful here.
+Welcome to the Simons AWS Learning repository! This repository contains a collection of resources, tutorials, and projects to help explore Amazon Web Services (AWS). Whether you're a beginner or looking to deepen your knowledge, hopefully you will find something useful here.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ AWS (Amazon Web Services) is a comprehensive and widely adopted cloud platform, 
 
 ## Prerequisites
 
-Before diving into the learning resources, it's recommended to have the following:
+Before diving into the resources, it's recommended to have the following:
 
 - **Basic understanding of cloud computing concepts**: Familiarity with the cloud, virtualization, and networking can be helpful.
 - **An AWS account**: Some hands-on labs might require an active AWS account. You can create one [here](https://aws.amazon.com/free/).
@@ -27,7 +27,7 @@ Before diving into the learning resources, it's recommended to have the followin
 
 ## AWS Services Covered
 
-This repository will guide you through some of the core AWS services, including but not limited to:
+This repository will guide you through some of the core AWS services that I have built, including but not limited to:
 
 - **EC2** (Elastic Compute Cloud): Virtual servers in the cloud.
 - **S3** (Simple Storage Service): Scalable object storage.
@@ -49,4 +49,5 @@ This repository will guide you through some of the core AWS services, including 
    - After installation, configure the CLI with your AWS credentials by running:
    ```bash
    aws configure
-
+4. **README.md in each folder**
+  - Make sure to visit README.me in each project folder which provides additional details. 
