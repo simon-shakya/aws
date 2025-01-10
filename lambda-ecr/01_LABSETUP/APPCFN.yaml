@@ -221,9 +221,9 @@ Resources:
           unzip awscliv2.zip
           sudo ./aws/install
           pip3 install pymysql boto3
-          wget https://learn-cantrill-labs.s3.amazonaws.com/aws-lex-lambda-rds/app.zip
-          wget https://learn-cantrill-labs.s3.amazonaws.com/aws-lex-lambda-rds/db_init.py
-
+          wget https://github.com/simon-shakya/aws/blob/main/lambda-ecr/01_LABSETUP/app.zip
+          wget https://github.com/simon-shakya/aws/blob/main/lambda-ecr/01_LABSETUP/db_init.py
+ 
 Outputs:
   AppRunnerTaskRoleName:
     Value: !Ref AppRunnerTaskRole
