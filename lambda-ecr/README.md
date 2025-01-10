@@ -28,8 +28,7 @@ Deploy the CloudFormation stack using the link provided in the `1-Click Install`
 
 - [Stage2](./02_LABINSTRUCTIONS/STAGE%202%20-%20Create%20the%20RDS%20database.md)
 
-- [Stage3](./02_LABINSTRUCTIONS/STAGE%203%20-%20Build%20the%20Docker%20image%2C%20create%20Parameter%20Store%20entries%20
-and%20set%20up%20RDS%20database.md)
+- [Stage3](./02_LABINSTRUCTIONS/STAGE%203%20-%20Build%20the%20Docker%20image%2C%20create%20Parameter%20Store%20entries%20and%20set%20up%20RDS%20database.md)
 
 - [Stage4](./02_LABINSTRUCTIONS/STAGE%204%20-%20Create%20and%20configure%20the%20Lex%20bot.md)
 
