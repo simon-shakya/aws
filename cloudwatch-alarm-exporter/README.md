@@ -49,21 +49,21 @@ scrape_configs:
 ### 5. **Push to GitHub**
 
 1. Initialize your Git repository:
-    ```bash
+ 
     git init
-    ```
+
 
 2. Add your GitHub repository as the remote:
-    ```bash
+   
     git remote add origin https://github.com/yourusername/cloudwatch-alarm-exporter.git
-    ```
+    
 
 3. Add, commit, and push the files:
-    ```bash
+
     git add .
     git commit -m "Initial commit of CloudWatch Alarm Exporter"
     git push -u origin master
-    ```
+   
 
 ---
 
@@ -79,4 +79,4 @@ Once you have completed these steps and pushed the code to GitHub, you can:
 
 Let me know if you need help with any of the steps or further guidance on deployment!
 
-```
+
