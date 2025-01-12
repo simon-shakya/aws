@@ -51,7 +51,7 @@ Here's what each option means:
 Go to the "Targets" tab in the Prometheus web UI (http://localhost:9090/targets).
 
 
-Step 5: Verify Prometheus is Scraping Metrics
+## Step 5: Verify Prometheus is Scraping Metrics
 
 You should see the target localhost:9090 listed under the "prometheus" job, which indicates that Prometheus is scraping its own metrics.
 
@@ -125,7 +125,7 @@ docker run -d \
 ```
 Now, Prometheus will start scraping Node Exporter metrics from localhost:9100.
 
-Conclusion
+## Conclusion
 You now have a basic Prometheus setup running locally in Docker! You can start collecting and analyzing system or application metrics by configuring Prometheus to scrape various endpoints and setting up different exporters. 
 This setup can be extended to monitor various services and integrated with other tools like Grafana for enhanced visualizations.
 
