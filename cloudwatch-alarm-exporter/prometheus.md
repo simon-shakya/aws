@@ -1,9 +1,11 @@
+# Prometheus setup Locally
+
 To set up Prometheus locally using Docker, follow these steps. Prometheus is a powerful open-source system monitoring and alerting toolkit that is commonly used to collect and query metrics. Running Prometheus in Docker simplifies the setup and ensures you have an isolated environment.
 
-Step 1: Install Docker
+## Step 1: Install Docker
 If you don't have Docker installed, you can install it from Docker's official site. Follow the instructions for your operating system.
 
-Step 2: Create a Prometheus Configuration File
+## Step 2: Create a Prometheus Configuration File
 Prometheus uses a configuration file (prometheus.yml) to define how it collects metrics. For this example, we'll use the default configuration.
 
 Create a directory for Prometheus:
@@ -27,7 +29,7 @@ scrape_configs:
 ```
 This configuration tells Prometheus to scrape its own metrics every 15 seconds.
 
-Step 3: Run Prometheus with Docker
+## Step 3: Run Prometheus with Docker
 Now, let's run Prometheus using Docker. In the prometheus directory, run the following command:
 
 ```bash
@@ -45,15 +47,15 @@ Here's what each option means:
 -p 9090:9090: Maps the container's port 9090 to your local port 9090 (Prometheus web UI).
 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml: Mounts your prometheus.yml config file into the container.
 
-Step 4: Access Prometheus Web UI
+## Step 4: Access Prometheus Web UI
 Go to the "Targets" tab in the Prometheus web UI (http://localhost:9090/targets).
-You should see the target localhost:9090 listed under the "prometheus" job, which indicates that Prometheus is scraping its own metrics.
+
 
 Step 5: Verify Prometheus is Scraping Metrics
-Go to the "Targets" tab in the Prometheus web UI (http://localhost:9090/targets).
+
 You should see the target localhost:9090 listed under the "prometheus" job, which indicates that Prometheus is scraping its own metrics.
 
-Step 6: Stop the Prometheus Docker Container
+## Step 6: Stop the Prometheus Docker Container
 If you want to stop the Prometheus container, you can run:
 
 ```bash
@@ -66,7 +68,7 @@ If you want to remove the container, use:
 
 docker rm prometheus
 ```
-Step 7: (Optional) Run Prometheus with Docker Compose
+## Step 7: (Optional) Run Prometheus with Docker Compose
 You can also use Docker Compose to manage Prometheus along with other services (like exporters). Here's how to run Prometheus using Docker Compose:
 
 Create a docker-compose.yml file in the prometheus directory:
@@ -93,7 +95,7 @@ docker-compose up -d
 Access Prometheus at http://localhost:9090.
 ```
 
-Step 8: Adding Exporters
+## Step 8: Adding Exporters
 To collect metrics from other services (e.g., Node Exporter for system metrics), you can modify the prometheus.yml configuration and set up additional exporters.
 
 For example, to scrape system metrics using the Node Exporter:
