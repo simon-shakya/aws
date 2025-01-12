@@ -41,6 +41,7 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:8000']
 ```
+How to setup Prometheus in detail steps defined here
 
 ## Additional Information
 
